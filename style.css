@@ -1,0 +1,78 @@
+/*Selector {*/
+	/*Property: value;*/
+/*}*/
+
+body {
+	padding-bottom: 400px;
+	background-image: url(https://i.ytimg.com/vi/GUZuyMVdVcc/maxresdefault.jpg);
+	background-size: cover;
+}
+
+h2, p {
+	color: red;
+	text-align: center;
+	cursor: pointer;
+}
+
+h1 {
+	color: red;
+}
+
+h3 {
+	text-align: center;
+	color: white;
+}
+
+
+p {
+	color: white;
+	line-height: 50px;
+	font-weight: bold;
+	font-size: 120%;
+	font-family: fantasy;
+}
+
+li {
+
+list-style: none;
+display: inline-block;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+}
+
+.products {
+	display: flex;
+	justify-content: space-between;
+	border: 2px solid red;
+}
+
+
+.my-4 {
+	color: black;
+}
+
+.jumbotron {
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+
+.lead {
+	font-size: 25px;
+}
+
+.umad {
+	text-align: center;
+	font-family: courier;
+}
+
+.display-4 {
+	font-size: 40px;
+}
+
+img {
+	float: left;
+}
