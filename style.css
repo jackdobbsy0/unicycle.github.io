@@ -4,7 +4,7 @@
 
 body {
 	padding-bottom: 400px;
-	background-image: url(https://i.ytimg.com/vi/GUZuyMVdVcc/maxresdefault.jpg);
+	background-color: white;
 	background-size: cover;
 }
 
@@ -20,16 +20,16 @@ h1 {
 
 h3 {
 	text-align: center;
-	color: white;
+	color: red;
+	font-family: courier;
+	font-size: 120%;
 }
 
-
 p {
-	color: white;
+	color: red;
 	line-height: 50px;
-	font-weight: bold;
 	font-size: 120%;
-	font-family: fantasy;
+	font-family: courier;
 }
 
 li {
@@ -41,12 +41,11 @@ display: inline-block;
 footer {
 	clear: both;
 	text-align: center;
-}
+	}
 
 .products {
 	display: flex;
 	justify-content: space-between;
-	border: 2px solid red;
 }
 
 
@@ -61,16 +60,19 @@ footer {
 }
 
 .lead {
-	font-size: 25px;
+	font-size: 120%;
 }
 
 .umad {
 	text-align: center;
 	font-family: courier;
+	padding-top: 20px;
 }
 
 .display-4 {
 	font-size: 40px;
+	font-weight: bold;
+	font-family: courier;
 }
 
 img {
